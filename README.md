@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# Mini Goals App
+A simple and intuitive web application that allows users to add, view, and manage their goals. Built using React and TypeScript, this app provides a seamless experience for tracking personal goals efficiently.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Website** - https://theblaisecode.github.io/mini-goals-app/
 
-Currently, two official plugins are available:
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- **Add Goals:** Enter a goal title and description to add it to the list.  
+- **Goal List:** View all added goals in a structured list.  
+- **Delete Goals:** Remove any goal from the list with a simple click.  
+- **Real-time Updates:** Instantly updates the goal list upon adding or deleting an entry.  
+- **TypeScript Integration:** Ensures type safety and better maintainability.  
+- **Minimalist UI:** A clean, user-friendly interface with a smooth experience.  
 
-## Expanding the ESLint configuration
+<br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🖼️ Preview  
+![Mini Goals App](https://github.com/user-attachments/assets/11b7eb88-f00b-4fb1-826c-98baa9740fee)
 
-- Configure the top-level `parserOptions` property like this:
+<br/>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🔧 Tech Stack  
+- **React JS:** A powerful library for building dynamic user interfaces.  
+- **TypeScript:** Adds static types to JavaScript for improved reliability.  
+- **Styled Components:** Modular and reusable styles for a clean design.  
+- **React Hooks:** Used for state and effect management.  
+
+<br/>
+
+## 📚 Documentation  
+
+### Installation  
+Clone the repository and install dependencies:  
+
+```bash
+git clone https://github.com/theblaisecode/mini-goals-app.git
+cd mini-goals-app
+npm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Running the App**<br/>
+Start the development server:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run dev
 ```
+
+Build the project for production:
+```bash
+npm run build
+```
+
+<br/>
+
+## 👥 Author  
+- GitHub - [@theblaisecode](https://github.com/theblaisecode)  
+- Twitter - [@theblaisecode](https://twitter.com/theblaisecode)  
+- LinkedIn - [@theblaisecode](https://www.linkedin.com/in/theblaisecode)  
+- Portfolio - [theblaisecode.netlify.app](https://theblaisecode.netlify.app/)
