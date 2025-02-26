@@ -7,7 +7,7 @@ function CourseGoalList({ goals, onDeleteGoal }: CourseGoalListProp) {
   if (goals.length === 0) {
     return (
       <InfoBox mode="hint">
-        You have no course goals yet. Start adding some!
+        You have no goals yet. Start adding some!
       </InfoBox>
     );
   }
