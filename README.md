@@ -1,7 +1,7 @@
 # Mini Goals App
 A simple and intuitive web application that allows users to add, view, and manage their goals. Built using React and TypeScript, this app provides a seamless experience for tracking personal goals efficiently.
 
-**Live Website** - [Coming Soon]
+**Live Website** - https://theblaisecode.github.io/mini-goals-app/
 
 <br/>
 
